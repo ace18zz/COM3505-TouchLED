@@ -16,9 +16,9 @@ Change rows 14 and 15 of TouchLED.ino to contain information about your WiFi or 
 
 ## Result
 ### a. Photos of the hardware
-![Image](../TouchyThing/image/IMG_1601.jpg)
-![Image](../TouchyThing/image/IMG_1602.jpg)
-![Image](../TouchyThing/image/ESP32.jpeg)
+![Image](TouchyThing/image/IMG_1601.jpg)
+![Image](TouchyThing/image/IMG_1602.jpg)
+![Image](TouchyThing/image/ESP32.jpeg)
 For this device, the touchpins for the three LEDs are: red 33, green 15 and yellow 32, with three touch interfaces. The pin for this one button is 14.
 
 ### b. Demo Video
@@ -26,15 +26,15 @@ For this device, the touchpins for the three LEDs are: red 33, green 15 and yell
 
 ### c. Screenshot of serial monitor
 #### c.1 When the drives starts to run.
-![Image](../TouchyThing/image/start.jpg)
+![Image](TouchyThing/image/start.jpg)
 At first, no wires or buttons are touched, so all LEDs are shown to be off until the wire for the yellow LED is touched and the display reads yellow LED on.
 
 #### c.2 When push the button.
-![Image](image/button.jpg)
+![Image](TouchyThing/image/button.jpg)
 When the button is pressed, the number representing the button changes from a 1 to a 0, at which point the phone is also notified.
 
 #### c.3 Touching three wires at the same time.
-![Image](image/threeLeds.jpg)
+![Image](TouchyThing/image/threeLeds.jpg)
 At this point we will see that all LEDs are on.
 ##Conclusion 
 The device generally works fine and achieves the functions described, but there are still areas that need improvement, for example: the delay in the phone receiving notifications when a button is pressed is too high and when the phone receives a notification, the string inside cannot be changed. I will continue to learn and try to fix these two flaws later.
