@@ -1,5 +1,5 @@
 # COM3505-TouchLED
-# <center>COM3505 Assignment1 Report</center>
+
 ## Abstract 
 a (breadboard-based) IoT device, which accepts control signals via the ESP32's touch sensing capability, flashes LEDs to indicate different types of event, is well-documented at both technical and operational levels, including hardware photographs, a brief video of the system in use and a transcript of serial line diagnostic output and responds to events via a cloud-based integration API that provided by IFTTT,  is created.
 
